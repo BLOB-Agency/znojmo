@@ -4,8 +4,8 @@ import React from "react";
 
 export default function AboutHome({ t }) {
   return (
-    <section className="grid grid-col md:grid-cols-2 gap-[25px] min-h-[60vh] p-24">
-      <div className="relative">
+    <section className="grid grid-col grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-[25px] min-h-[60vh] p-24">
+      <div className="relative row-span-1">
         <Image
           src="/images/accueil-strate-2.jpg"
           fill
@@ -14,7 +14,7 @@ export default function AboutHome({ t }) {
           className="object-cover"
         />
       </div>
-      <div className="text-black flex flex-col justify-between gap-[25px]">
+      <div className="text-black flex flex-col justify-between gap-[25px] row-span-1">
         <div className="flex flex-col gap-[25px]">
           <h2 className="font-extrabold">{t("AboutHome.title")}</h2>
           <p>{t("AboutHome.description1")}</p>
