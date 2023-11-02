@@ -1,6 +1,13 @@
 {
   "Index": {
-    "title": "Hello World",
-    "subtitle": "This is a subtitle"
+    "title": "SC ZNOJMO",
+    "subtitle": "Embrace the heartbeat of a football passion",
+    "contactBtn": "JOIN US",
+    "AboutHome": {
+      "title": "SC ZNOJMO, SINCE 1953",
+      "description1": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+      "description2": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+      "button": "LEARN MORE"
+    }
   }
 }

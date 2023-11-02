@@ -4,7 +4,9 @@ import { useLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import Header from "../components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "Create Next App",

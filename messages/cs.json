@@ -1,6 +1,13 @@
 {
-    "Index": {
-        "title": "Ahoj světe",
-        "subtitle": "Toto je ukázková stránka v Nette Frameworku. Prozkoumejte ji a pak ji smažte."
+  "Index": {
+    "title": "SC ZNOJMO",
+    "subtitle": "Přijměte tlukot srdce fotbalové vášně",
+    "contactBtn": "PŘIPOJ SE K NÁM",
+    "AboutHome": {
+      "title": "SC ZNOJMO, OD ROKU 1953",
+      "description1": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+      "description2": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+      "button": "DALŠÍ INFORMACE"
     }
+  }
 }
