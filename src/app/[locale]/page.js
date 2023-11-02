@@ -18,7 +18,7 @@ export default function Home() {
       className=" flex flex-col gap-[50px] "
       
     >
-      <section className="flex flex-col items-center justify-center p-24 pt-[150px] min-h-screen" style={{
+      <section className="flex flex-col items-center justify-center p-[24px] pt-[150px] min-h-screen" style={{
         backgroundImage: styles.backgroundImage,
         backgroundRepeat: styles.repeat,
         backgroundSize: styles.backgroudSize,
