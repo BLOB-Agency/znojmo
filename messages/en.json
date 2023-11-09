@@ -7,7 +7,30 @@
       "title": "SC ZNOJMO, SINCE 1953",
       "description1": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
       "description2": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-      "button": "LEARN MORE"
+      "button": "LEARN MORE",
+      "trustedBy": "TRUSTED BY"
+    },
+    "ExploreHome": {
+      "title": "EXPLORE OUR WEBSITE",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+      "link0": "team",
+      "linkTitle0": "PLAYERS PROFILES",
+      "linkImg0": "accueil-strate-3a.jpg",
+      "link1": "/path-to-second-item",
+      "linkTitle1": "SHOP",
+      "linkImg1": "accueil-strate-3b.jpg",
+      "link2": "/path-to-third-item",
+      "linkTitle2": "NEWS",
+      "linkImg2": "accueil-strate-3c.jpg",
+      "link3": "/path-to-fourth-item",
+      "linkTitle3": "ZNOJMO THE CITY",
+      "linkImg3": "accueil-strate-3d.jpg",
+      "link4": "/path-to-fifth-item",
+      "linkTitle4": "OUR PARTNERS",
+      "linkImg4": "accueil-strate-3e.jpg",
+      "link5": "path-to-sixth-item",
+      "linkTitle5": "FOLLOW US",
+      "linkImg5": "accueil-strate-3f.jpg"
     }
   }
 }

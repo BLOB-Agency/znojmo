@@ -16,8 +16,48 @@
   }
 }
 
+/* Apply basic styles for all sizes */
+.trusted-by-small {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+  overflow: hidden;
+}
+
+/* Apply specific styles when the viewport width is more than 400px */
+
+.trusted-by {
+  -webkit-clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+  overflow: hidden;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(
+      calc(-200% * (1 / 2))
+    ); /* Slide the width of one full set of logos */
+  }
+}
+
+.logo-container {
+  display: flex;
+  animation: slide 18s linear infinite; /* Adjust time as needed */
+  will-change: transform; /* Improves performance for animations */
+}
+
+/* Assuming you're showing 6 logos at a time */
+.logo-slide {
+  flex-shrink: 0;
+  width: calc(
+    100% * (1 / 6)
+  ); /* Each logo takes up 1/6th of the container width */
+}
+
 body {
-  background-color: white;
+  background-color: #f8f8f8;
   color: white;
 }
 h2 {

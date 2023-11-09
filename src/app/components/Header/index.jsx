@@ -26,7 +26,7 @@ export default function Header() {
   }, [test]);
 
   return (
-    <header className="fixed w-full h-[100px] top-0 p-[24px] md:p-[50px] grid grid-cols-3 items-center">
+    <header className="fixed z-[99] w-full h-[100px] top-0 p-[24px] md:p-[50px] grid grid-cols-3 items-center">
       <Burger toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
       <Link href="/" className="justify-self-center">
         <Image
