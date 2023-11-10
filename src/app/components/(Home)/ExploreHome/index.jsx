@@ -28,7 +28,7 @@ export default function ExploreHome({ t }) {
           className="relative md:col-span-1 min-h-[250px] overflow-hidden"
         >
           <Image
-            className="object-cover brightness-50  w-full h-full scale-[130%] hover:scale-100 transition-all duration-300 ease-in-out"
+            className="object-cover brightness-[75%]  w-full h-full scale-[130%] hover:scale-100 transition-all duration-300 ease-in-out"
             src={`/images/${t(`ExploreHome.linkImg${index}`)}`}
             alt={t(`ExploreHome.linkTitle${index}`)}
             fill
