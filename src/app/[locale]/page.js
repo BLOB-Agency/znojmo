@@ -25,7 +25,7 @@ export default function Home() {
         }}
       >
         <div className="flex flex-col gap-[25px] items-center">
-          <h1 className="text-[50px] font-extrabold text-center">
+          <h1 className="text-[50px] font-bold text-center">
             {t("title")}
           </h1>
           <p className="text-[25px] text-center">{t("subtitle")}</p>

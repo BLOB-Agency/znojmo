@@ -15,22 +15,22 @@
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
       "link0": "/cesta-k-prvnimu-predmetu",
       "linkTitle0": "Název prvního předmětu",
-      "linkImg0": "/cesta-k-obrazku-prvniho-predmetu.jpg",
+      "linkImg0": "accueil-strate-3a.jpg",
       "link1": "/cesta-k-druhemu-predmetu",
       "linkTitle1": "Název druhého předmětu",
-      "linkImg1": "/cesta-k-obrazku-druheho-predmetu.jpg",
+      "linkImg1": "accueil-strate-3b.jpg",
       "link2": "/cesta-k-tretimu-predmetu",
       "linkTitle2": "Název třetího předmětu",
-      "linkImg2": "/cesta-k-obrazku-tretiho-predmetu.jpg",
+      "linkImg2": "accueil-strate-3c.jpg",
       "link3": "/cesta-k-ctvrtemu-predmetu",
       "linkTitle3": "Název čtvrtého předmětu",
-      "linkImg3": "/cesta-k-obrazku-ctvrteho-predmetu.jpg",
+      "linkImg3": "accueil-strate-3d.jpg",
       "link4": "/cesta-k-patemu-predmetu",
       "linkTitle4": "Název pátého předmětu",
-      "linkImg4": "/cesta-k-obrazku-pateho-predmetu.jpg",
+      "linkImg4": "accueil-strate-3e.jpg",
       "link5": "/cesta-k-sestemu-predmetu",
       "linkTitle5": "Název šestého předmětu",
-      "linkImg5": "/cesta-k-obrazku-sesteho-predmetu.jpg"
+      "linkImg5": "accueil-strate-3f.jpg"
     }
   }
 }

@@ -17,25 +17,25 @@ export default function ExploreHome({ t }) {
       className="grid grid-col gap-[10px] p-[24px] md:p-[50px] md:grid-row md:grid-cols-4"
       style={styles}
     >
-      <div className="md:col-span-2">
-        <h2>{t("ExploreHome.title")}</h2>
+      <div className="md:col-span-2 flex flex-col justify-center">
+        <h2 className="font-bold">{t("ExploreHome.title")}</h2>
         <p>{t("ExploreHome.description")}</p>
       </div>
       {Array.from({ length: numberOfLinks }, (_, index) => (
         <Link
           href={t(`ExploreHome.link${index}`)}
           key={index}
-          className="relative md:col-span-1 min-h-[250px]"
+          className="relative md:col-span-1 min-h-[250px] overflow-hidden"
         >
           <Image
-            className="object-cover "
+            className="object-cover brightness-50  w-full h-full scale-[130%] hover:scale-100 transition-all duration-300 ease-in-out"
             src={`/images/${t(`ExploreHome.linkImg${index}`)}`}
             alt={t(`ExploreHome.linkTitle${index}`)}
             fill
             sizes="100%"
             priority
           />
-          <span>{t(`ExploreHome.linkTitle${index}`)}</span>
+          <span className="absolute bottom-[20px] left-[20px] font-bold">{t(`ExploreHome.linkTitle${index}`)}</span>
         </Link>
       ))}
     </section>

@@ -16,19 +16,26 @@
   }
 }
 
-/* Apply basic styles for all sizes */
-.trusted-by-small {
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
-  clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
-  overflow: hidden;
+@font-face {
+  font-family: "Prompt";
+  src: url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400;1,600&family=Prompt:wght@200;300;400;500;600;700;800;900&display=swap");
+}
+@font-face {
+  font-family: "Popins";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+}
+* {
+  font-family: "Prompt", sans-serif;
+}
+p,
+span {
+  font-family: "Popins", sans-serif;
 }
 
-/* Apply specific styles when the viewport width is more than 400px */
-
 .trusted-by {
-  -webkit-clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
-  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
-  overflow: hidden;
+  -webkit-clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%) !important;
+  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%) !important;
+  overflow: hidden !important;
 }
 
 @keyframes slide {
@@ -61,7 +68,7 @@ body {
   color: white;
 }
 h2 {
-  font-size: 20px;
+  font-size: 25px;
 }
 p {
   font-size: 14px;
