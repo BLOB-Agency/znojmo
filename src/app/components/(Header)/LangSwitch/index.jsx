@@ -2,11 +2,11 @@ import React from "react";
 import Link from "next-intl/link";
 export default function LangSwitch({ isCzech }) {
   return (
-    <div className={`justify-self-end text-black `}>
+    <div className={`justify-self-end text-white `}>
       <Link
         href="/"
         locale="en"
-        className={`transition-all ${!isCzech ? "text-cyan-500" : ""}`}
+        className={`transition-all  ${!isCzech ? "text-primary" : ""}`}
       >
         EN
       </Link>
@@ -14,7 +14,7 @@ export default function LangSwitch({ isCzech }) {
       <Link
         href="/"
         locale="cs"
-        className={`transition-all ${isCzech ? "text-cyan-500" : ""}`}
+        className={`transition-all ${isCzech ? "text-primary" : ""}`}
       >
         CZ
       </Link>

@@ -31,6 +31,18 @@
       "link5": "/cesta-k-sestemu-predmetu",
       "linkTitle5": "Název šestého předmětu",
       "linkImg5": "accueil-strate-3f.jpg"
+    },
+    "CTA": {
+      "title": "MÁTE OTÁZKU?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.",
+      "button": "KONTAKTUJTE NÁS"
     }
+  },
+  "Footer": {
+    "title": "SC ZNOJMO",
+    "titleBtn": "B2B Sponzoři",
+    "button": "STÁHNOUT PDF",
+    "privacy": "Zásady ochrany osobních údajů",
+    "terms": "Podmínky užívání"
   }
 }

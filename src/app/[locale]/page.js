@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 import AboutHome from "../components/(Home)/AboutHome";
 import ExploreHome from "../components/(Home)/ExploreHome";
+import Cta from "../components/(Home)/Cta";
 
 export default function Home() {
   const t = useTranslations("Index");
@@ -25,9 +26,7 @@ export default function Home() {
         }}
       >
         <div className="flex flex-col gap-[25px] items-center">
-          <h1 className="text-[50px] font-bold text-center">
-            {t("title")}
-          </h1>
+          <h1 className="text-[50px] font-bold text-center">{t("title")}</h1>
           <p className="text-[25px] text-center">{t("subtitle")}</p>
           <button className="bg-primary rounded-full px-[25px] py-[10px] w-fit pointer transition-all hover:scale-105">
             <Link className="text-[14px] pointer block" href="/contact">
@@ -38,6 +37,7 @@ export default function Home() {
       </section>
       <AboutHome t={t} />
       <ExploreHome t={t} />
+      <Cta t={t} />
     </main>
   );
 }

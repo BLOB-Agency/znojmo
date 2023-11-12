@@ -35,7 +35,8 @@ export default function ExploreHome({ t }) {
             sizes="100%"
             priority
           />
-          <span className="absolute bottom-[20px] left-[20px] font-bold">{t(`ExploreHome.linkTitle${index}`)}</span>
+          <span className="absolute bottom-[10px] left-[10px] font-bold">{t(`ExploreHome.linkTitle${index}`)}</span>
+          <Image src={"/images/arrow-upright.svg"} width={15} height={15} alt="arrow" className="absolute top-[10px] right-[10px]" />
         </Link>
       ))}
     </section>

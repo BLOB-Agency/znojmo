@@ -10,22 +10,18 @@ export default function Burger({ toggleMenu, isMenuOpen }) {
       onClick={toggleMenu}
     >
       <span
-        className={`w-full rounded-full transition-all bg-black ${
-          isMenuOpen
-            ? "absolute self-center -rotate-45 h-[3px] bg-black"
-            : "h-[2px]"
+        className={`w-full rounded-full transition-all bg-primary ${
+          isMenuOpen ? "absolute self-center -rotate-45 h-[3px] " : "h-[2px]"
         }`}
       ></span>
       <span
-        className={`w-full h-[2px] rounded-full transition-all  bg-black ${
+        className={`w-full h-[2px] rounded-full transition-all  bg-primary ${
           isMenuOpen ? "opacity-0" : ""
         }`}
       ></span>
       <span
-        className={`w-full rounded-full transition-all  bg-black ${
-          isMenuOpen
-            ? "absolute self-center rotate-45 h-[3px] bg-black"
-            : "h-[2px]"
+        className={`w-full rounded-full transition-all  bg-primary ${
+          isMenuOpen ? "absolute self-center rotate-45 h-[3px] " : "h-[2px]"
         }`}
       ></span>
     </button>
