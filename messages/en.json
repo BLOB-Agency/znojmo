@@ -65,5 +65,9 @@
     "Description4": "The club's commitment extends to nurturing future talent through its academy, which is seen as the next step in its development. Staff members are dedicated to ensuring that the academy serves as a solid foundation for young athletes, providing them with the necessary resources to excel. This investment in youth development is a testament to the club's vision for growth and its role in the community.",
     "TitleTop": "OUR VISION",
     "DescriptionTop": "We are the most diverse team of the league, with more than 10+ nationality, our vision is to promote the football values (REE) as a primary education in our daily life, Respect, Excellency, and Efforts. We are inclusive and looking to develop disables team, women’s division, gaming community."
+  },
+  "Team":{
+    "Title" : "OUR TEAM",
+    "Description1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
   }
 }
