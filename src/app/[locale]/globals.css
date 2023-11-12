@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: "Prompt";
-  src: url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400;1,600&family=Prompt:wght@200;300;400;500;600;700;800;900&display=swap");
+  src: url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500;600;700;800;900&display=swap");
 }
 @font-face {
   font-family: "Popins";
@@ -30,6 +30,7 @@
 p,
 span {
   font-family: "Popins", sans-serif;
+  font-weight: 300;
 }
 
 .trusted-by {

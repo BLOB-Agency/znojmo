@@ -12,7 +12,7 @@ export default function Cta({ t }) {
           <Link href="/contact">{t("CTA.button")}</Link>
         </button>
       </div>
-      <Image src={"/images/cta.png"} width={400} height={400} alt="cta" />
+      <Image src={"/images/cta.png"} width={400} height={400} priority alt="cta" />
     </section>
   );
 }

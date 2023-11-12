@@ -33,7 +33,7 @@ export default function Header() {
         isMenuOpen ? "bg-white h-[100vh]" : ""
       } `}
     >
-      <div className="relative grid grid-cols-3 items-center px-[24px] pt-[24px] md:px-[50px] h-fit">
+      <div className="relative grid grid-cols-3 items-center pb-[10px] px-[24px] pt-[24px] md:px-[50px] h-fit">
         <Burger toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
         <Link href="/" className="justify-self-center">
           <Image
@@ -102,7 +102,7 @@ export default function Header() {
       )}
       {isMenuOpen && (
         <>
-          <HeaderNav isCzech={isCzech} />
+          <HeaderNav isCzech={isCzech} toggleMenu={toggleMenu} />
           <HeaderFooter isCzech={isCzech} />
         </>
       )}

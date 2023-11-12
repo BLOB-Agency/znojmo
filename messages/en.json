@@ -1,5 +1,4 @@
 {
-  
   "Index": {
     "title": "SC ZNOJMO",
     "subtitle": "Embrace the heartbeat of a football passion",
@@ -39,7 +38,6 @@
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.",
       "button": "CONTACT US"
     }
-    
   },
   "Header": {
     "linkHome": "Home",
@@ -55,5 +53,17 @@
     "button": "DOWNLOAD PDF",
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions"
+  },
+  "About": {
+    "Title": "OUR STORY",
+    "Description1": "Our Club won promotion from the Czech Fourth Division in 2002, finishing first in Division D in the 2001–02 season. We followed this with eight seasons in the Moravian–Silesian Football League, before winning another promotion in 2010. We bravely secured promotion to the Czech 2. Liga two matches before the end of 2009–10 season. We have finished to lead the club to a first-place finish in the 2012–13 Czech 2. Liga and We proudnly celebrated promotion from the Czech 2. Liga, winning the right to play in the top tier for the first time in our history.",
+    "Description2": "We finished bottom of the 2013–14 Czech First League. From that prime times we have seen a very slow uninteresting move that relegate us in competitive MSFL. We are now living a revolution handover of the club with a new ownership and expertise team that has taken the challenge to bring back Znojmo FC and its fans at his prime. The version 2023 and onward is the most international new talent team of the league.",
+    "Title2": "THE CLUB",
+    "Subtitle1": "Stadium and Community",
+    "Description3": "Znojmo's home stadium is Městský stadion (Znojmo), a venue that surpasses the League's expectations with its infrastructure. The club's facilities are well-equipped to not only host the professional league but also to welcome citizens, athletes, schools, and fans. The green park area surrounding the pitch adds to the charm and functionality of the stadium, making it a prime location for sporting events and community gatherings.",
+    "Subtitle2": "Fostering Future Talent",
+    "Description4": "The club's commitment extends to nurturing future talent through its academy, which is seen as the next step in its development. Staff members are dedicated to ensuring that the academy serves as a solid foundation for young athletes, providing them with the necessary resources to excel. This investment in youth development is a testament to the club's vision for growth and its role in the community.",
+    "TitleTop": "OUR VISION",
+    "DescriptionTop": "We are the most diverse team of the league, with more than 10+ nationality, our vision is to promote the football values (REE) as a primary education in our daily life, Respect, Excellency, and Efforts. We are inclusive and looking to develop disables team, women’s division, gaming community."
   }
 }
