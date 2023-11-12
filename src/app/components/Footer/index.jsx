@@ -7,7 +7,7 @@ export default function Footer() {
   const t = useTranslations("Footer");
   return (
     <footer className="grid grid-col bg-secondary gap-[10px] ">
-      <div className="grid grid-cols-3 items-center px-[24px] py-[24px] md:px-[50px]">
+      <div className="grid sm:grid-cols-3 gap-[10px] items-center px-[24px] py-[24px] md:px-[50px]">
         <div className="grid grid-col gap-[5px] items-center text-center">
           <h4 className="font-bold">{t("title")}</h4>
           <Link href="tel:700 000 000" className="text-white text-[12px]">

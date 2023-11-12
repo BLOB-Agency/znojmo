@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next-intl/link";
 export default function LangSwitch({ isCzech }) {
   return (
-    <div className={`justify-self-end text-white `}>
+    <div className={`justify-self-end text-black `}>
       <Link
         href="/"
         locale="en"
