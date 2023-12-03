@@ -66,11 +66,15 @@
     "TitleTop": "OUR VISION",
     "DescriptionTop": "We are the most diverse team of the league, with more than 10+ nationality, our vision is to promote the football values (REE) as a primary education in our daily life, Respect, Excellency, and Efforts. We are inclusive and looking to develop disables team, women’s division, gaming community."
   },
-  "Team":{
-    "Title" : "OUR TEAM",
+  "Team": {
+    "Title": "OUR TEAM",
     "Description1": "At Pride First, we are committed to upholding the legacy of Szojmo by exemplifying excellence in sports and ethical values.",
     "age": "yo",
     "weight": "kg",
     "number": "number"
+  },
+  "Academy": {
+    "Title": "ACADEMY",
+    "Description1": "Our Academy is based on two fundamental aspects: Analysis and Resolution of practical cases, and constant work on the pitch. You will be immersed in the reality of professional football under the guidance of leading professionals."
   }
 }

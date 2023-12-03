@@ -55,11 +55,15 @@
     "Subtitle2": "Podpora budoucích talentů",
     "Description4": "Závazek klubu se rozšiřuje i na podporu budoucích talentů prostřednictvím své akademie, která je považována za další krok v jeho rozvoji. Zaměstnanci jsou oddáni tomu, aby akademie sloužila jako pevný základ pro mladé sportovce, poskytující jim potřebné zdroje k excelenci. Tento investice do rozvoje mládeže je důkazem vize klubu pro růst a jeho role v komunitě."
   },
-  "Team":{
-    "Title" : "NÁŠ TÝM",
+  "Team": {
+    "Title": "NÁŠ TÝM",
     "Description1": "V Pride First se zavazujeme udržovat odkaz Szojma tím, že budeme představovat vynikající výkony ve sportu a etické hodnoty.",
     "age": "věk",
     "weight": "hmotnost",
     "number": "číslo"
+  },
+  "Academy": {
+    "Title": "AKADEMIE",
+    "Description1": "Naše akademie je založena na dvou základních aspektech: Analýza a řešení praktických případů a neustálá práce na hřišti. Budete ponořeni do reality profesionálního fotbalu pod vedením předních odborníků."
   }
 }
