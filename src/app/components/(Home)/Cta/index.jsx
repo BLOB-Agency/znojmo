@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Cta({ t }) {
   return (
-    <section className="grid grid-col sm:flex sm:flex-row-reverse items-center  gap-[10px] p-[24px] md:p-[50px]">
+    <section className="grid grid-col sm:flex sm:flex-row-reverse items-center justify-center  gap-[24px] p-[24px] md:p-[50px]">
       <div className="flex flex-col items-center sm:items-start gap-[10px]">
         <h2 className="text-black font-bold">{t("CTA.title")}</h2>
         <p className="text-black">{t("CTA.description")}</p>

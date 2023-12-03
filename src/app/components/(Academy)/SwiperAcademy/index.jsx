@@ -24,7 +24,8 @@ export default function SwiperAcademy() {
     <Swiper
       className="w-full h-[300px] md:h-[300px] cursor-grab  "
       spaceBetween={"24px"}
-      slidesPerView={1.2}
+      slidesPerView={1.3}
+      initialSlide={3}
       pagination={{ clickable: true }}
       controller={true}
       centeredSlides={true}
