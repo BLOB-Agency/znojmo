@@ -1,0 +1,123 @@
+[
+  {
+    "firstName": "Kylian",
+    "lastName": "Mbappe",
+    "picture": "mbappe.jpeg",
+    "age": 19,
+    "weight": 73,
+    "height": 178,
+    "strongFoot": "Right",
+    "position": "Striker",
+    "number": 10,
+    "socials": [
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-insta-player.svg"
+      },
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-tiktok-player.svg"
+      },
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-x-player.svg"
+      }
+    ]
+  },
+  {
+    "firstName": "Neymar",
+    "lastName": "Jr",
+    "picture": "kylian-mbappe.jpeg",
+    "age": 26,
+    "weight": 68,
+    "height": 175,
+    "strongFoot": "Right",
+    "position": "Striker",
+    "number": 11,
+    "socials": [
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-insta-player.svg"
+      },
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-tiktok-player.svg"
+      },
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-x-player.svg"
+      }
+    ]
+  },
+  {
+    "firstName": "Edinson",
+    "lastName": "Cavani",
+    "picture": "kylian-mbappe.jpeg",
+    "age": 31,
+    "weight": 73,
+    "height": 184,
+    "strongFoot": "Right",
+    "position": "Striker",
+    "number": 9,
+    "socials": [
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-insta-player.svg"
+      },
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-tiktok-player.svg"
+      },
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-x-player.svg"
+      }
+    ]
+  },
+  {
+    "firstName": "Gianluigi",
+    "lastName": "Buffon",
+    "picture": "kylian-mbappe.jpeg",
+    "age": 40,
+    "weight": 92,
+    "height": 192,
+    "strongFoot": "Right",
+    "position": "Goalkeeper",
+    "number": 1,
+    "socials": [
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-insta-player.svg"
+      },
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-tiktok-player.svg"
+      },
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-x-player.svg"
+      }
+    ]
+  },
+  {
+    "firstName": "Thiago",
+    "lastName": "Silva",
+    "picture": "kylian-mbappe.jpeg",
+    "age": 33,
+    "weight": 79,
+    "height": 183,
+    "strongFoot": "Right",
+    "position": "Defender",
+    "number": 2,
+    "socials": [
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-insta-player.svg"
+      },
+      {
+        "link": "https://www.instagram.com/thiagosilva_33/",
+        "icon": "social-tiktok-player.svg"
+      }
+    ]
+  }
+]

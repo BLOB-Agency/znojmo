@@ -57,6 +57,9 @@
   },
   "Team":{
     "Title" : "NÁŠ TÝM",
-    "Description1": "Lorem Ipsum je pouze ukázkový text tiskové a sazečské průmyslu. Lorem Ipsum je standardním ukázkovým textem od 16. století."
+    "Description1": "V Pride First se zavazujeme udržovat odkaz Szojma tím, že budeme představovat vynikající výkony ve sportu a etické hodnoty.",
+    "age": "věk",
+    "weight": "hmotnost",
+    "number": "číslo"
   }
 }

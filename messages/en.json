@@ -68,6 +68,9 @@
   },
   "Team":{
     "Title" : "OUR TEAM",
-    "Description1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+    "Description1": "At Pride First, we are committed to upholding the legacy of Szojmo by exemplifying excellence in sports and ethical values.",
+    "age": "yo",
+    "weight": "kg",
+    "number": "number"
   }
 }
