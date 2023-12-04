@@ -7,20 +7,19 @@ export default function Contact() {
   const t = useTranslations("Contact");
   console.log(t);
   return (
-    <main className=" flex flex-col sm:grid sm:grid-cols-2 gap-[48px] items-center min-h-[80vh] mt-[100px] p-[24px] md:p-[50px] text-black ">
-      <div className="relative h-full w-full">
-      <Image
-        className="object-contain "
-        src={"/images/cta.png"}
-        priority
-       fill="responsive"
-        alt="Footbal Player"
-      />
+    <main className=" flex flex-col-reverse sm:grid sm:grid-cols-2 gap-[48px] items-center min-h-[80vh] mt-[100px] p-[24px] md:p-[50px] text-black ">
+      <div className="relative h-[400px] sm:h-full w-full">
+        <Image
+          className="object-contain "
+          src={"/images/cta.png"}
+          priority
+          fill="responsive"
+          alt="Footbal Player"
+        />
       </div>
-      
 
       <div className="flex flex-col gap-[24px]">
-        <h2>{t("Title")}</h2>
+        <h2 className="font-bold text-[25px]">{t("Title")}</h2>
         <ContactForm
           name={t("Form.name")}
           namePh={t("Form.namePh")}
