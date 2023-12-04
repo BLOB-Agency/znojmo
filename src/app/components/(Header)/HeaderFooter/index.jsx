@@ -38,15 +38,15 @@ export default function HeaderFooter({ isCzech }) {
         </Link>
 
         <div className="grid grid-col grid-cols-3 items-center justify-items-center">
-          <Link href="/" className="text-white relative">
+          <Link href="https://www.instagram.com/1scznojmofk/" target="_blank" className="text-white relative">
             <Image
               src="/images/social-instagram.svg"
               width={20}
               height={20}
-              alt="facebook"
+              alt="instagram"
             />
           </Link>
-          <Link href="/" className="text-white relative ">
+          <Link href="https://x.com/1scznojmofk?s=20" target="_blank" className="text-white relative ">
             <Image
               src="/images/social-x.svg"
               width={20}

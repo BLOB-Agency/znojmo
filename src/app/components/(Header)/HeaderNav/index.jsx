@@ -37,7 +37,7 @@ export default function HeaderNav({ isCzech, toggleMenu }) {
         </Link>
         <Link
           onClick={toggleMenu}
-          href="/"
+          href="/shop"
           className="transition-all hover:scale-105 hover:font-semibold"
         >
           {isCzech ? "Obchod" : "Shop"}

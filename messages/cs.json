@@ -65,5 +65,17 @@
   "Academy": {
     "Title": "AKADEMIE",
     "Description1": "Naše akademie je založena na dvou základních aspektech: Analýza a řešení praktických případů a neustálá práce na hřišti. Budete ponořeni do reality profesionálního fotbalu pod vedením předních odborníků."
+  },
+  "Contact": {
+    "Title": "OTÁZKA? KONTAKTUJTE NÁS!",
+    "Form": {
+      "name": "Jméno",
+      "namePh": "John Doe",
+      "email": "Email",
+      "emailPh": "johndoe@gmail.com",
+      "message": "Zpráva",
+      "messagePh": "Ahoj, jsem John Doe a rád bych se dozvěděl více o...",
+      "button": "ODESLAT"
+    }
   }
 }

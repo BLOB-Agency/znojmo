@@ -45,7 +45,8 @@ export default function Footer() {
         </Link>
         <div className="flex justify-center gap-[10px]">
           <Link
-            href="/"
+            href="https://www.instagram.com/1scznojmofk/"
+            target="_blank"
             className="text-white relative transition-all duration-400 hover:scale-105"
           >
             <Image
@@ -56,7 +57,8 @@ export default function Footer() {
             />
           </Link>
           <Link
-            href="/"
+            href="https://x.com/1scznojmofk?s=20"
+            target="_blank"
             className="text-white relative transition-all duration-400 hover:scale-105"
           >
             <Image

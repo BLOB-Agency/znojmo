@@ -35,7 +35,7 @@ export default function Header() {
     >
       <div className="relative grid grid-cols-3 items-center pb-[10px] px-[24px] pt-[24px] md:px-[50px] h-fit">
         <Burger toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
-        <Link href="/" className="justify-self-center">
+        <Link href="/" target="_blank" className="justify-self-center">
           <Image
             src="/images/logo_sc-znojmo.png"
             width={50}
@@ -48,7 +48,8 @@ export default function Header() {
       {!isMenuOpen && (
         <div className="justify-self-end w-fit grid grid-row gap-[10px] py-[10px] pr-[24px] md:pr-[50px]">
           <Link
-            href="/"
+            href="https://www.instagram.com/1scznojmofk/"
+            target="_blank"
             className="text-white relative transition-all duration-400 hover:scale-105"
           >
             <svg
@@ -65,7 +66,8 @@ export default function Header() {
             </svg>
           </Link>
           <Link
-            href="/"
+            href="https://x.com/1scznojmofk?s=20"
+            target="_blank"
             className="text-white relative transition-all duration-400 hover:scale-105"
           >
             <svg

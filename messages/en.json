@@ -76,5 +76,17 @@
   "Academy": {
     "Title": "ACADEMY",
     "Description1": "Our Academy is based on two fundamental aspects: Analysis and Resolution of practical cases, and constant work on the pitch. You will be immersed in the reality of professional football under the guidance of leading professionals."
+  },
+  "Contact": {
+    "Title": "A QUESTION? CONTACT US!",
+    "Form": {
+      "name": "Name",
+      "namePh": "John Doe",
+      "email": "Email",
+      "emailPh": "johndoe@gmail.com",
+      "message": "Message",
+      "messagePh": "Hi, I'm John Doe and I would like to know more about...",
+      "button": "SEND"
+    }
   }
 }
