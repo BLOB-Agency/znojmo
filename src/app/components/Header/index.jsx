@@ -35,7 +35,7 @@ export default function Header() {
     >
       <div className="relative grid grid-cols-3 items-center pb-[10px] px-[24px] pt-[24px] md:px-[50px] h-fit">
         <Burger toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
-        <Link href="/" target="_blank" className="justify-self-center">
+        <Link href="/" className="justify-self-center">
           <Image
             src="/images/logo_sc-znojmo.png"
             width={50}
@@ -85,6 +85,7 @@ export default function Header() {
           </Link>
           <Link
             href="/"
+            target="_blank"
             className="relative transition-all duration-400 hover:scale-105"
           >
             <svg

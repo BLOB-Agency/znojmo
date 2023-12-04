@@ -9,7 +9,7 @@ export default function AboutHome({ t }) {
     <section className="relative grid grid-col grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-[25px] min-h-[60vh] p-[24px] md:p-[50px] mt-[150px] w-full relative">
       <div className="relative row-span-1">
         <Image
-          src="/images/accueil-strate-2.jpg"
+          src="/images/accueil-strate-2.png"
           fill
           sizes={"100%"}
           priority
