@@ -24,6 +24,7 @@ export default function ExploreHome({ t }) {
       {Array.from({ length: numberOfLinks }, (_, index) => (
         <Link
           href={t(`ExploreHome.link${index}`)}
+          target="_blank"
           key={index}
           className="relative md:col-span-1 min-h-[250px] overflow-hidden"
         >
@@ -35,8 +36,16 @@ export default function ExploreHome({ t }) {
             sizes="100%"
             priority
           />
-          <span className="absolute bottom-[10px] left-[10px] font-bold">{t(`ExploreHome.linkTitle${index}`)}</span>
-          <Image src={"/images/arrow-upright.svg"} width={15} height={15} alt="arrow" className="absolute top-[10px] right-[10px]" />
+          <span className="absolute bottom-[10px] left-[10px] font-bold">
+            {t(`ExploreHome.linkTitle${index}`)}
+          </span>
+          <Image
+            src={"/images/arrow-upright.svg"}
+            width={15}
+            height={15}
+            alt="arrow"
+            className="absolute top-[10px] right-[10px]"
+          />
         </Link>
       ))}
     </section>

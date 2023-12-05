@@ -60,7 +60,10 @@
     "Description1": "V Pride First se zavazujeme udržovat odkaz Szojma tím, že budeme představovat vynikající výkony ve sportu a etické hodnoty.",
     "age": "věk",
     "weight": "hmotnost",
-    "number": "číslo"
+    "number": "číslo",
+    "height": "m",
+    "position": "pozice"
+
   },
   "Academy": {
     "Title": "AKADEMIE",

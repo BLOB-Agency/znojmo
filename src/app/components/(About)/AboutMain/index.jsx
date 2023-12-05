@@ -51,7 +51,7 @@ export default function AboutMain({ t }) {
         <div className="relative min-h-[300px] w-full md:order-4">
           <Image
             className="object-cover"
-            src={"/images/about-strate-2b.jpg"}
+            src={"/images/about-strate-2b.jpeg"}
             fill
             priority
             sizes={"100%"}

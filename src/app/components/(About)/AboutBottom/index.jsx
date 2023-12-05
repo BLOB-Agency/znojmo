@@ -13,10 +13,10 @@ export default function AboutBottom({ t }) {
           src={"/images/about-strate-3.jpg"}
           fill
           priority
-          objectPosition="bottom"
+          objectPosition="center"
           sizes="100%"
           alt="logo Znojmo"
-          className="object-cover"
+          className="object-cover "
         />
       </div>
     </section>

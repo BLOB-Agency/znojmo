@@ -29,7 +29,7 @@
       "link4": "/path-to-fifth-item",
       "linkTitle4": "OUR PARTNERS",
       "linkImg4": "accueil-strate-3e.png",
-      "link5": "path-to-sixth-item",
+      "link5": "https://x.com/1scznojmofk?s=20",
       "linkTitle5": "FOLLOW US",
       "linkImg5": "accueil-strate-3f.png"
     },
@@ -71,7 +71,9 @@
     "Description1": "At Pride First, we are committed to upholding the legacy of Szojmo by exemplifying excellence in sports and ethical values.",
     "age": "yo",
     "weight": "kg",
-    "number": "number"
+    "number": "number" ,
+    "height": "m",
+    "position": "position"
   },
   "Academy": {
     "Title": "ACADEMY",

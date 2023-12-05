@@ -7,15 +7,15 @@ import "swiper/css/scrollbar";
 export default function SwiperAcademy() {
   const academy = [
     {
-      picture: "academy.jpg", // Ensure these are different if they are different images
+      picture: "academy1.jpg", // Ensure these are different if they are different images
       name: "Academy",
     },
     {
-      picture: "academy.jpg",
+      picture: "academy2.jpg",
       name: "Academy",
     },
     {
-      picture: "academy.jpg",
+      picture: "academy3.jpg",
       name: "Academy",
     },
   ];

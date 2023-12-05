@@ -12,7 +12,7 @@ export default function Team() {
         <h2 className="whitespace-nowrap">{t("Title")}</h2>
         <p>{t("Description1")}</p>
       </div>
-      <section className="grid sm:grid-cols-2 md:grid-cols-3 lg-grid-cols-4 2xl:flex 2xl:flex-wrap">
+      <section className="grid md:grid-cols-2 xl:grid-cols-3 xl-grid-cols-4 ">
         {players &&
           players.map((player, index) => (
             <TeamCard key={index} player={player} t={t} />
