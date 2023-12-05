@@ -29,7 +29,7 @@ export default function Home() {
           <h1 className="text-[50px] font-bold text-center">{t("title")}</h1>
           <p className="text-[25px] text-center">{t("subtitle")}</p>
           <button className="bg-primary rounded-full px-[25px] py-[10px] w-fit pointer transition-all hover:scale-105">
-            <Link className="text-[14px] pointer block" href="/contact">
+            <Link className="text-[16px] pointer block " href="/contact">
               {t("contactBtn")}
             </Link>
           </button>
