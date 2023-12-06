@@ -31,7 +31,7 @@ export default function PartnerBanner() {
   }, []);
   return (
     <div
-      className={`absolute bg-white w-full md:w-[80%] sm:left-auto flex justify-self-center top-[-240px]  overflow-hidden  transition-all duration-400 `}
+      className={`absolute bg-white w-full md:w-[80%] sm:left-auto flex justify-self-center bottom-[-30px]  overflow-hidden  transition-all duration-400 `}
       style={
         isDesktop
           ? { clipPath: "polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%)" }

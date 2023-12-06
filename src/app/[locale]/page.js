@@ -3,6 +3,7 @@ import Link from "next/link";
 import AboutHome from "../components/(Home)/AboutHome";
 import ExploreHome from "../components/(Home)/ExploreHome";
 import Cta from "../components/(Home)/Cta";
+import PartnerBanner from "../components/(Home)/PartnerBanner";
 
 export default function Home() {
   const t = useTranslations("Index");
@@ -34,6 +35,7 @@ export default function Home() {
             </Link>
           </button>
         </div>
+        <PartnerBanner />
       </section>
       <AboutHome t={t} />
       <ExploreHome t={t} />

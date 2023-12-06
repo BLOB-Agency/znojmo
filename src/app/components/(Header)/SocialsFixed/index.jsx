@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 export default function SocialsFixed() {
   return (
-    <div className="justify-self-end w-fit grid grid-row gap-[10px] py-[10px] pr-[24px] md:pr-[50px] span-rows-3">
+    <div className="fixed right-0 top-[100px] w-fit grid grid-row gap-[10px] py-[10px] pr-[24px] md:pr-[50px] span-rows-3">
           <Link
             href="https://twitter.com/1scznojmofk"
             target="_blank"

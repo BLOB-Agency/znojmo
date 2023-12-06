@@ -30,11 +30,11 @@ export default function Header() {
 
   return (
     <header
-      className={`grid grid-col grid-rows-[12] fixed z-[99] w-full  top-0  ${
+      className={`flex flex-col fixed z-[99] w-full  top-0  ${
         isMenuOpen ? "bg-white h-[100vh]" : ""
       } `}
     >
-      <div className="row-span-1 relative grid grid-cols-3 row-span-1 items-center pb-[10px] px-[24px] pt-[24px] md:px-[50px] h-fit">
+      <div className="relative grid grid-cols-3 row-span-1 items-center pb-[10px] px-[24px] pt-[24px] md:px-[50px] ">
         <Burger toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
         <Link href="/" className="justify-self-center">
           <Image

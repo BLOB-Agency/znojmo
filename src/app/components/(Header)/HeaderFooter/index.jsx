@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function HeaderFooter({ isCzech }) {
   return (
-    <footer className="row-span-4 w-full grid grid-row p-[24px] bg-secondary text-center">
+    <footer className="w-full h-full grid grid-row p-[24px] bg-secondary text-center">
       <div className="flex flex-col items-center">
         <Image
           src={"/images/logo-dark.png"}
@@ -35,7 +35,7 @@ export default function HeaderFooter({ isCzech }) {
           Ochrana osobních údajů
         </Link>
 
-        <div className="w-full grid grid-col grid-cols-3 items-center justify-items-center">
+        <div className="w-full h-full grid grid-col grid-cols-3 items-center justify-items-center">
           <Link href="/" className="text-white relative">
             <Image
               src="/images/social-instagram.svg"

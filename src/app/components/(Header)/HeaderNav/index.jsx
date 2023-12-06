@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function HeaderNav({ isCzech, toggleMenu }) {
   return (
     <nav
-      className={`row-span-6 grid grid-col grid-rows-[8]  justify-center  h-full w-full border-t-[1px] border-black text-black  pt-[24px] text-center text-[20px]`}
+      className={`grid grid-col grid-rows-[8]  justify-center  h-full w-full border-t-[1px] border-black text-black  pt-[24px] text-center text-[20px]`}
     >
       <>
         <Link
