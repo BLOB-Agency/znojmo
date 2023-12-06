@@ -4,7 +4,7 @@ import React from "react";
 
 export default function AboutHome({ t }) {
   return (
-    <section className="relative grid grid-col grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-[25px] min-h-[60vh] p-[24px] md:p-[50px] mt-[150px] w-full relative">
+    <section className="relative grid grid-col grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-[25px] min-h-[60vh] p-[24px] md:p-[50px]  w-full relative">
       <div className="relative row-span-1">
         <Image
           src="/images/accueil-strate-2.png"
