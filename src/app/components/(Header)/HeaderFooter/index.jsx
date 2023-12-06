@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function HeaderFooter({ isCzech }) {
   return (
-    <footer className="w-full h-full grid grid-row p-[24px] bg-secondary text-center">
+    <footer className="w-full h-fit py-[10px] gap-[10px] grid grid-row p-[24px] bg-secondary text-center">
       <div className="flex flex-col items-center">
         <Image
           src={"/images/logo-dark.png"}
@@ -23,16 +23,15 @@ export default function HeaderFooter({ isCzech }) {
       </div>
       <div className="flex flex-col gap-[10px] items-center font-bold">
         <h3>{isCzech ? "B2B Sponzoři" : "B2B Sponsors"}</h3>
-        <button className="rounded-full px-[25px] py-[10px] bg-primary hover:scale-105 transition-all duration-400 pointer">
+        <button className="rounded-full px-[25px] text-[14px] py-[10px] bg-primary hover:scale-105 transition-all duration-400 pointer">
           <a href="/assets/b2b-deck.pdf" download={"SC-Znojmo_B2B-Sponsors"}>
             {isCzech ? "STÁHNOUT PDF" : "DOWNLOAD PDF"}
           </a>
         </button>
       </div>
-      <div className="grid grid-col grid-cols-3 items-center justify-center bg-secondary border-t-[1px] border-white w-full text-[10px] text-center">
+      <div className="grid grid-col grid-cols-3 h-fit pt-[10px] self-end items-center justify-center bg-secondary border-t-[1px] border-white w-full text-[10px] text-center">
         <Link href="/" className="text-white">
-          {isCzech ? "Ochrana osobních údajů" : "Privacy Polic"}
-          Ochrana osobních údajů
+          {isCzech ? "Ochrana osobních údajů" : "Privacy Policy"}
         </Link>
 
         <div className="w-full h-full grid grid-col grid-cols-3 items-center justify-items-center">
