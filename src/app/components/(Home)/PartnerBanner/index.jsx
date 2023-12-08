@@ -3,17 +3,8 @@ import React from "react";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 export default function PartnerBanner() {
-  const logos = [
-    "logo-kfc.png",
-    "logo-premium-hotel.png",
-    "logo-znojmo.png",
-    "nevoga_logo.png",
-    "logo-ds-duma.png",
-    "logo-starbuck.png",
-  ];
-  // Let's check if the window width is smaller than 640px
-  // If it is we'll apply a class called trusted-by otherwise won't apply it.
-  // We'll use this class to apply a different style to the container
+  const logos = ["capizona.png", "unesportsity.png", "citizens.png"];
+
   const [isDesktop, setIsDesktop] = useState(false);
   useEffect(() => {
     const handleResize = () => {
@@ -24,10 +15,10 @@ export default function PartnerBanner() {
     handleResize();
 
     // Set up event listener for window resize
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     // Clean up
-    return () => window.removeEventListener('resize', handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
   return (
     <div
@@ -35,7 +26,7 @@ export default function PartnerBanner() {
       style={
         isDesktop
           ? { clipPath: "polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%)" }
-          : {clipPath:"none"}
+          : { clipPath: "none" }
       }
     >
       <div className="z-[4] absolute bg-black w-fit text-center flex justify-center items-center p-[10px] pl:[24px] sm:pl-[50px] relative w-[200px] overflow-hidden">
@@ -48,15 +39,15 @@ export default function PartnerBanner() {
             logos.map((logo, index) => (
               <div
                 key={`${repeatIndex}-${index}`}
-                className="logo-slide  relative w-[50px] h-[50px]"
+                className="flex items-center logo-slide  relative w-[50px] h-[50px]"
               >
                 <Image
                   src={`/images/${logo}`}
-                  fill
+                  width={150}
+                  height={50}
                   priority
-                  sizes={100}
                   alt="Logo Partner"
-                  className="object-contain"
+                  className="object-contain w-fit max-w-[100px] !important"
                 />
               </div>
             ))
@@ -65,7 +56,7 @@ export default function PartnerBanner() {
             logos.map((logo, index) => (
               <div
                 key={`${repeatIndex}-${index}`}
-                className="logo-slide  relative w-[50px] h-[50px]"
+                className="flex items-center logo-slide  relative w-[50px] h-[50px]"
               >
                 <Image
                   src={`/images/${logo}`}
@@ -73,7 +64,7 @@ export default function PartnerBanner() {
                   priority
                   sizes={100}
                   alt="Logo Partner"
-                  className="object-contain"
+                  className="object-contain w-fit max-w-[100px] !important"
                 />
               </div>
             ))

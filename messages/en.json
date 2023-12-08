@@ -5,37 +5,38 @@
     "contactBtn": "JOIN US",
     "AboutHome": {
       "title": "SC ZNOJMO, SINCE 1953",
-      "description1": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-      "description2": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+      "title2": "Message from the President",
+      "description1": "Znojmo is a rich historical and sport culture city and our aim in the Club as President has been to build a club that the city deserves. We target now to be leading sporting mindset internationally and keep in line to reach the top elit of the czech professional football. While always placing our local community at the heart of everything we do.",
+      "description2": "I am very proud of what we have collectively achieved at Znojmo SC in such a short time. For our fans and for our wider community, I'm excited for our futur ahead",
       "button": "LEARN MORE",
       "trustedBy": "TRUSTED BY"
     },
 
     "ExploreHome": {
       "title": "EXPLORE OUR WEBSITE",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+      "description": "We are happy to announce that we have reviewed and update our website to become our main channel of communication. More features are coming soon to Shop, for News and to download free tickets!",
       "link0": "team",
       "linkTitle0": "PLAYERS PROFILES",
-      "linkImg0": "accueil-strate-3a.png",
-      "link1": "/path-to-second-item",
+      "linkImg0": "about-strate-2b.jpeg",
+      "link1": "/shop",
       "linkTitle1": "SHOP",
       "linkImg1": "accueil-strate-3b.png",
-      "link2": "/path-to-third-item",
+      "link2": "/news",
       "linkTitle2": "NEWS",
       "linkImg2": "accueil-strate-3c.png",
-      "link3": "/path-to-fourth-item",
+      "link3": "https://www.znojmocity.cz/",
       "linkTitle3": "ZNOJMO THE CITY",
       "linkImg3": "accueil-strate-3d.jpg",
-      "link4": "/path-to-fifth-item",
+      "link4": "/about",
       "linkTitle4": "OUR PARTNERS",
-      "linkImg4": "accueil-strate-3e.png",
+      "linkImg4": "unesportsity-white.png",
       "link5": "https://x.com/1scznojmofk?s=20",
       "linkTitle5": "FOLLOW US",
       "linkImg5": "accueil-strate-3f.png"
     },
     "CTA": {
       "title": "HAVE A QUESTION?",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.",
+      "description": "As a partner, a fan or just a professional our admin team is here to support at any time, so do not hesitate",
       "button": "CONTACT US"
     }
   },
@@ -71,7 +72,7 @@
     "Description1": "At Pride First, we are committed to upholding the legacy of Szojmo by exemplifying excellence in sports and ethical values.",
     "age": "yo",
     "weight": "kg",
-    "number": "number" ,
+    "number": "number",
     "height": "m",
     "position": "position"
   },
@@ -91,203 +92,6 @@
       "button": "SEND"
     }
   },
-  "Leaderboard": [
-    [
-      {
-        "playerNumber": 1,
-        "firstName": "Franko",
-        "lastName": "Skugor",
-        "age": 26,
-        "height": null,
-        "foot": null,
-        "nationality": "Sweden",
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": 30,
-        "firstName": "Catalin",
-        "lastName": "Moraru",
-        "age": 22,
-        "height": 1.85,
-        "foot": "left",
-        "nationality": "Moldova",
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": 22,
-        "firstName": "Artur",
-        "lastName": "",
-        "age": 23,
-        "height": 1.84,
-        "foot": null,
-        "nationality": "Brazil",
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": 5,
-        "firstName": "Slobodan",
-        "lastName": "Ivanovic",
-        "age": 26,
-        "height": 1.97,
-        "foot": "left",
-        "nationality": "Serbia",
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": 13,
-        "firstName": "Wilker",
-        "lastName": "Santos",
-        "age": 29,
-        "height": 1.86,
-        "foot": "right",
-        "nationality": "Brazil",
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": null,
-        "firstName": "Fábio",
-        "lastName": "Domingues",
-        "age": 25,
-        "height": 1.76,
-        "foot": "right",
-        "nationality": "Brazil",
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": null,
-        "firstName": "David",
-        "lastName": "Putu",
-        "age": 23,
-        "height": 1.86,
-        "foot": "right",
-        "nationality": "DR Congo",
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": 9,
-        "firstName": "Carlos",
-        "lastName": "Neto",
-        "age": 27,
-        "height": 1.9,
-        "foot": null,
-        "nationality": "Brazil",
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": 14,
-        "firstName": "Duarte",
-        "lastName": "Ferreira",
-        "age": 23,
-        "height": 1.87,
-        "foot": "right",
-        "nationality": "Portugal",
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": 30,
-        "firstName": "Catalin",
-        "lastName": "MORARU",
-        "age": 22,
-        "height": 1.85,
-        "nationality": "Moldova",
-        "foot": null,
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": 1,
-        "firstName": "Frank",
-        "lastName": "ŠKUGOR",
-        "age": 26,
-        "height": null,
-        "nationality": "Croatia",
-        "foot": null,
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": 21,
-        "firstName": "Jorge",
-        "lastName": "Augusto AFONSO RODRIGUES",
-        "age": 22,
-        "height": 1.87,
-        "nationality": "Portugal",
-        "foot": null,
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": 6,
-        "firstName": "João",
-        "lastName": "Miguel CARNEIRO RODRIGUES",
-        "age": 21,
-        "height": 1.83,
-        "nationality": "Portugal",
-        "foot": null,
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": 15,
-        "firstName": "Christian",
-        "lastName": "FRIGERIO",
-        "age": 23,
-        "height": 1.8,
-        "nationality": "Italy",
-        "foot": null,
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      },
-      {
-        "playerNumber": 19,
-        "firstName": "Karlo",
-        "lastName": "GRGIĆ",
-        "age": 21,
-        "height": null,
-        "nationality": "Netherlands",
-        "foot": null,
-        "picture": "",
-        "instagram": "",
-        "tiktok": "",
-        "twitter": ""
-      }
-    ]
-  ]
+  "Leaderboard": ""
+  
 }

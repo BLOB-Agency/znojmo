@@ -5,14 +5,15 @@
     "contactBtn": "PŘIPOJ SE K NÁM",
     "AboutHome": {
       "title": "SC ZNOJMO, OD ROKU 1953",
-      "description1": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-      "description2": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+      "title2": "Zpráva od prezidenta",
+      "description1": "Znojmo je město bohaté na historii a sportovní kulturu a naším cílem v klubu jako prezident je vybudovat klub, který si toto město zaslouží. Nyní se zaměřujeme na to, abychom se stali předním sportovním týmem mezinárodně a dosáhli elitní úrovně českého profesionálního fotbalu. Přitom vždy dáváme naši místní komunitu do centra všeho, co děláme.",
+      "description2": "Jsem velmi hrdý na to, co jsme společně dosáhli ve Znojmě SC za tak krátkou dobu. Pro naše fanoušky a pro naši širší komunitu se těším na naši budoucnost.",
       "button": "DALŠÍ INFORMACE",
       "trustedBy": "DŮVĚRYHODNÉ BY"
     },
     "ExploreHome": {
       "title": "PROZKOUMEJTE NAŠE STRÁNKY",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+      "description": "We are happy to announce that we have reviewed and update our website to become our main channel of communication. More features are coming soon to Shop, for News and to download free tickets!",
       "link0": "/cesta-k-prvnimu-predmetu",
       "linkTitle0": "Název prvního předmětu",
       "linkImg0": "accueil-strate-3a.png",
@@ -34,7 +35,7 @@
     },
     "CTA": {
       "title": "MÁTE OTÁZKU?",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.",
+      "description": "Jako partner, fanoušek nebo jen profesionál je náš administrační tým tu pro vás kdykoliv, tak neváhejte",
       "button": "KONTAKTUJTE NÁS"
     }
   },
@@ -63,7 +64,6 @@
     "number": "číslo",
     "height": "m",
     "position": "pozice"
-
   },
   "Academy": {
     "Title": "AKADEMIE",

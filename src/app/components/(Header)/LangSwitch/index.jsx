@@ -8,7 +8,7 @@ export default function LangSwitch({ isCzech }) {
         locale="en"
         className={`transition-all  ${!isCzech ? "text-primary" : ""}`}
       >
-        EN
+        🇬🇧
       </Link>
       {" / "}
       <Link
@@ -16,7 +16,7 @@ export default function LangSwitch({ isCzech }) {
         locale="cs"
         className={`transition-all ${isCzech ? "text-primary" : ""}`}
       >
-        CZ
+        🇨🇿
       </Link>
     </div>
   );

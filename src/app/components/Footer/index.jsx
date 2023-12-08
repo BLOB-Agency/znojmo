@@ -11,11 +11,11 @@ export default function Footer() {
         <div className="grid grid-col gap-[5px] items-center text-center">
           <h4 className="font-bold">{t("title")}</h4>
           <Link href="tel:700 000 000" className="text-white text-[12px]">
-            700 000 000
+          +420 604 250
           </Link>
-          <span className="font-bold">info@scznojmo.cz</span>
+          <Link href="mailto:info@znojmofc.com" className="font-bold"><h4>info@znojmofc.com</h4></Link>
           <span className="text-[12px]">
-            Stadionu 0000,
+          Stadium Otmara Chlupa 11 669 02,
             <br />
             znojmo 70000
           </span>
