@@ -36,7 +36,7 @@ export default function Header() {
     >
       <div className="relative grid grid-cols-3 row-span-1 items-center pb-[10px] px-[24px] pt-[24px] md:px-[50px] ">
         <Burger toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
-        <Link href="/" className="justify-self-center">
+        <Link href="/" className="justify-self-center ">
           <Image
             src="/images/logo_sc-znojmo.png"
             width={50}
