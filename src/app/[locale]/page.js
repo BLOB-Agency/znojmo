@@ -24,6 +24,7 @@ export default function Home() {
           loop
           muted
           playsInline
+          aria-description="Home page video of the football field"
           className="absolute top-0 left-0 w-full h-full object-cover z-0 "
         ></video>
         <div className="flex flex-col gap-[25px] items-center z-2 absolute">

@@ -20,6 +20,7 @@ export default function AboutHome({ t }) {
           <h2 className="font-extrabold">{t("AboutHome.title")}</h2>
           <p>{t("AboutHome.description1")}</p>
           <p>{t("AboutHome.description2")}</p>
+          <p><strong>{t("AboutHome.signature")}</strong></p>
         </div>
         <button className="text-white font-semibold bg-primary px-[25px] py-[10px] w-fit rounded-full pointer transition-all hover:scale-105">
           <Link href="/about">{t("AboutHome.button")}</Link>

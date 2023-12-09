@@ -3,7 +3,13 @@ import React from "react";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 export default function PartnerBanner() {
-  const logos = ["capizona.png", "unesportsity.png", "citizens.png"];
+  const logos = [
+    "capizona.png",
+    "unesportsity.png",
+    "citizens.png",
+    "nevoga_logo.png",
+    "logo-znojmo.png",
+  ];
 
   const [isDesktop, setIsDesktop] = useState(false);
   useEffect(() => {

@@ -14,14 +14,14 @@ export default function Header() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  const [isCzech, setIsCzech] = useState(false);
+  const [isEnglish, setIsEnglish] = useState(false); // Set default language to Czech
   let path = usePathname();
 
   const toggleLangSwitch = () => {
-    if (path.includes("/cs")) {
-      setIsCzech(true);
+    if (path.includes("/en")) {
+      setIsEnglish(true);
     } else {
-      setIsCzech(false);
+      setIsEnglish(false);
     }
   };
   useEffect(() => {
@@ -44,11 +44,13 @@ export default function Header() {
             alt="logo"
           />
         </Link>
-        <LangSwitch isCzech={isCzech} />
+        <LangSwitch isEnglish={isEnglish} />
       </div>
       {!isMenuOpen && <SocialsFixed />}
-      {isMenuOpen && <HeaderNav isCzech={isCzech} toggleMenu={toggleMenu} />}
-      {isMenuOpen && <HeaderFooter isCzech={isCzech} />}
+      {isMenuOpen && (
+        <HeaderNav isEnglish={isEnglish} toggleMenu={toggleMenu} />
+      )}
+      {isMenuOpen && <HeaderFooter isEnglish={isEnglish} />}
     </header>
   );
 }

@@ -12,6 +12,9 @@ export default function ContactForm({
   submitBtn,
 }) {
   const form = useRef();
+  const nameRef = useRef();
+  const emailRef = useRef();
+  const messageRef = useRef();
   const [isNameValid, setIsNameValid] = useState(true);
   const [isEmailValid, setIsEmailValid] = useState(true);
 
@@ -25,11 +28,17 @@ export default function ContactForm({
       return;
     }
 
+    const data = {
+      user_name: nameRef.current.value,
+      user_email: emailRef.current.value,
+      message: messageRef.current.value,
+    };
+
     emailjs
       .sendForm(
         "YOUR_SERVICE_ID",
         "YOUR_TEMPLATE_ID",
-        form.current,
+        data,
         "YOUR_PUBLIC_KEY"
       )
       .then(
@@ -49,6 +58,7 @@ export default function ContactForm({
       <div className="flex flex-col gap-[5px] w-full">
         <label className="pl-[25px]">{name}</label>
         <input
+          ref={nameRef}
           className={`bg-transparent border-[1.5px] border-black rounded-full px-[25px] py-[15px] focus:outline-primary transition-all duration-400 ${
             !isNameValid && "border-red-500 !important"
           }`}
@@ -62,6 +72,7 @@ export default function ContactForm({
       <div className="flex flex-col gap-[5px] w-full">
         <label className="pl-[25px]">{email}</label>
         <input
+          ref={emailRef}
           className={`bg-transparent border-[1.5px] border-black rounded-full px-[25px] py-[15px] outline-none focus:border-primary transition-all duration-400 ${
             !isEmailValid && "border-red-500 !important"
           }`}
@@ -76,6 +87,7 @@ export default function ContactForm({
       <div className="flex flex-col gap-[5px] w-full">
         <label className="pl-[25px]">{message}</label>
         <textarea
+          ref={messageRef}
           className="min-h-[150px] bg-transparent border-[1.5px] border-black rounded-2xl px-[25px] py-[15px] outline-none focus:border-primary transition-all duration-400"
           name="message"
           placeholder={messagePh}

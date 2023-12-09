@@ -1,5 +1,47 @@
 [
   {
+    "playerNumber": "",
+    "firstName": "Rui",
+    "lastName": "Amorim",
+    "age": 46,
+    "height": null,
+    "foot": null,
+    "position": "Head Coach",
+    "nationality": "",
+    "picture": "coach-placeholder.png",
+    "socials": [
+      {
+        "link": "",
+        "icon": ""
+      },
+      {
+        "link": "",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "playerNumber": "",
+    "firstName": "Stefano",
+    "lastName": "Sousa",
+    "age": 31,
+    "height": null,
+    "foot": null,
+    "position": "Assistant Coach",
+    "nationality": "",
+    "picture": "coach-placeholder.png",
+    "socials": [
+      {
+        "link": "",
+        "icon": ""
+      },
+      {
+        "link": "",
+        "icon": ""
+      }
+    ]
+  },
+  {
     "playerNumber": 1,
     "firstName": "Franko",
     "lastName": "Skugor",
@@ -83,27 +125,7 @@
       }
     ]
   },
-  {
-    "playerNumber": 22,
-    "firstName": "Artur",
-    "lastName": "SCAPINELLO RODRIGUES",
-    "age": 23,
-    "height": 1.84,
-    "foot": null,
-    "position": "",
-    "nationality": "Brazil",
-    "picture": "player-placeholder.png",
-    "socials": [
-      {
-        "link": "",
-        "icon": ""
-      },
-      {
-        "link": "",
-        "icon": ""
-      }
-    ]
-  },
+  
   {
     "playerNumber": 5,
     "firstName": "Slobodan",
@@ -174,30 +196,9 @@
     "age": 25,
     "height": 1.76,
     "foot": "right",
-    "position": "",
+    "position": "U",
     "nationality": "Brazil",
     "picture": "Fabio-Domingues.jpeg",
-    "socials": [
-      {
-        "link": "",
-        "icon": ""
-      },
-      {
-        "link": "",
-        "icon": ""
-      }
-    ]
-  },
-  {
-    "playerNumber": null,
-    "firstName": "David",
-    "lastName": "Putu",
-    "age": 23,
-    "height": 1.86,
-    "foot": "right",
-    "position": "",
-    "nationality": "DR Congo",
-    "picture": "player-placeholder.png",
     "socials": [
       {
         "link": "",
@@ -302,7 +303,7 @@
     "position": "O",
     "nationality": "Portugal",
     "foot": null,
-    "picture": "player-placeholder.png",
+    "picture": "Joao-Miguel.jpeg",
     "socials": [
       {
         "link": "",
@@ -316,14 +317,14 @@
   },
   {
     "playerNumber": 6,
-    "firstName": "João Miguel",
-    "lastName": "CARNEIRO RODRIGUES",
+    "firstName": "João",
+    "lastName": "RODRIGUES",
     "age": 21,
     "height": 1.83,
-    "position": "O",
+    "position": "D",
     "nationality": "Portugal",
     "foot": null,
-    "picture": "Gito-Rodrigues.jpeg",
+    "picture": "João-Rodrigues.jpeg",
     "socials": [
       {
         "link": "",
@@ -356,16 +357,81 @@
       }
     ]
   },
+ 
   {
-    "playerNumber": 19,
-    "firstName": "Karlo",
-    "lastName": "GRGIĆ",
-    "age": 21,
-    "height": null,
+    "playerNumber": 10,
+    "firstName": "Bakr",
+    "lastName": "Sadiq Abdellaoui",
+    "age": 26,
+    "height": 1.72,
     "position": "O",
-    "nationality": "Netherlands",
+    "nationality": "Finland/Morocco",
     "foot": null,
-    "picture": "player-placeholder.png",
+    "picture": "Bakr-Abdellaoui.jpeg",
+    "socials": [
+      {
+        "link": "",
+        "icon": ""
+      },
+      {
+        "link": "",
+        "icon": ""
+      }
+    ]
+  },
+  
+  {
+    "playerNumber": 24,
+    "firstName": "Rodrigo",
+    "lastName": "Vilela",
+    "age": 28,
+    "height": 1.74,
+    "position": "S",
+    "nationality": "Portugal",
+    "foot": null,
+    "picture": "Rodrigo-Vilela.jpeg",
+    "socials": [
+      {
+        "link": "",
+        "icon": ""
+      },
+      {
+        "link": "",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "playerNumber": 14,
+    "firstName": "Duarte",
+    "lastName": "Fereira",
+    "age": 23,
+    "height": 1.87,
+    "position": "U",
+    "nationality": "Portugal",
+    "foot": null,
+    "picture": "Duarte-Ferreira.jpeg",
+    "socials": [
+      {
+        "link": "",
+        "icon": ""
+      },
+      {
+        "link": "",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "playerNumber": 8,
+    "firstName": "Luis",
+    "lastName": "Pedro",
+    "age": 22,
+    "height": 1.77,
+    "position": "S",
+    "nationality": "Portugal",
+    "foot": null,
+    "picture": "Luis-Pedro.jpeg",
     "socials": [
       {
         "link": "",
@@ -378,3 +444,5 @@
     ]
   }
 ]
+
+
